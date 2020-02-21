@@ -1,0 +1,130 @@
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar h1 {
+    font-weight: 900;
+}
+.nav-link {
+    font-weight: 300 !important;
+    color: white !important;
+}
+.bg-dark {
+    background-color: black  !important;
+}
+.hero {
+    background-image: url(../img/retrato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10%;
+    margin-top: 5%;
+    height: 500px;
+}
+.container-hero {
+    padding-top: 10%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.container-hero h1 {
+    font-weight: 900;
+}
+.texto {
+    font-weight: 300;
+}
+.container-exp {
+    text-align: center;
+    padding: 5%;
+}
+.container-exp h1 {
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+.far , .fas {
+    font-size: 100px;
+    padding: 8%;
+    color: #fdb933;
+}
+.cajas {
+    display: inline-block;
+}
+.cajas p {
+    font-weight: 700;
+    font-size: 21px;
+}
+.portafolio {
+    background-color: #5c2875;
+    padding: 5%;
+}
+.titulo {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: whitesmoke;
+
+}
+.work img {
+    padding: 10%;
+    width: 100%;
+}
+
+.formulario {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+}
+.contacto {
+    background-color: #fdb933;
+    padding: 5%;
+}
+.form-check-input:disabled~.form-check-label {
+    color: white !important;
+}
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.footer a {
+    color: white;
+}
+.cierre {
+    
+    justify-content: center;
+}
+
+.name {
+    font-weight: 800;
+    display: inline-block;
+    padding: 3%;
+}
+.icon {
+    padding: 2%;
+    font-size: 50px;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 600px) {
+    body {
+      text-align: center;
+    }
+    .row-card {
+        padding-left: 22%;
+    }
+    .container {
+        padding-top: 25%;
+    }
+    .navbar h1 {
+        font-size: 120%;
+    }
+    .container-hero {
+        padding-top: 60%;
+    }
+  }
