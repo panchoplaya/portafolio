@@ -33,6 +33,12 @@
 .texto {
     font-weight: 300;
 }
+#about {
+    padding: 5%;
+}
+.textos {
+    padding: 5%;
+}
 .container-exp {
     text-align: center;
     padding: 5%;
@@ -126,5 +132,8 @@
     }
     .container-hero {
         padding-top: 60%;
+    }
+    #about {
+        display: none;
     }
   }
